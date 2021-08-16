@@ -18,6 +18,5 @@ exports.avg = function avg (array) {
     for (let i = 0; i < array.length; i++) {
         sum += array[i] 
     };
-	let answer = +((sum / array.length).toFixed(2))
-    return answer
+    return sum / array.length
 }
